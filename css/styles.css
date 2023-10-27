@@ -69,8 +69,6 @@ button {
 
 }
 
-
-
 /* ==========HEADER============ */
 .main-header {
 	border-bottom: 1px solid #e7e9fc;
@@ -415,7 +413,6 @@ button {
 	text-align: center;
 	font-size: 36px;
 	line-height: 1.11;
-	/* 111.111% */
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	color: var(--NAVY-BLUE, #2E2F42);
@@ -475,7 +472,6 @@ button {
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 1.2;
-	/* 120% */
 	letter-spacing: 0.02em;
 	color: var(--NAVY-BLUE, #2E2F42);
 	border-top: none;
@@ -485,7 +481,6 @@ button {
 .portfolio-item-text {
 	font-size: 16px;
 	line-height: 1.5;
-	/* 150% */
 	letter-spacing: 0.02em;
 	color: var(--SLATE, #434455);
 }
@@ -513,7 +508,6 @@ button {
 	font-size: 18px;
 	font-weight: 700;
 	line-height: 1.17;
-	/* 116.667% */
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--IRIS, #4D5AE5);
@@ -525,7 +519,6 @@ button {
 	font-family: Raleway, sans-serif;
 	font-size: 18px;
 	line-height: 1.17;
-	/* 116.667% */
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--CLOUD, #F4F4FD);
@@ -534,7 +527,6 @@ button {
 .main-footer-text {
 	font-size: 16px;
 	line-height: 1.5;
-	/* 150% */
 	letter-spacing: 0.02em;
 	color: var(--CLOUD, #F4F4FD);
 	width: 264px;
