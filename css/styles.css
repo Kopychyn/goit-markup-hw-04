@@ -72,14 +72,15 @@ button {
 /* ==========HEADER============ */
 .main-header {
 	border-bottom: 1px solid #e7e9fc;
+	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+		0px 1px 1px rgba(46, 47, 66, 0.16),
+		0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .main-header-box {
 	display: flex;
 	justify-content: space-between;
-	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-		0px 1px 1px rgba(46, 47, 66, 0.16),
-		0px 1px 6px rgba(46, 47, 66, 0.08);
+
 }
 
 .main-navigations {
@@ -140,7 +141,7 @@ button {
 }
 
 
-.menu-link:active::after {
+.menu-link:hover::after {
 	content: '';
 	position: absolute;
 	left: 0;
@@ -279,24 +280,6 @@ button {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--SLATE, #434455);
-}
-
-.our-team-icon-box {
-	display: flex;
-	gap: 24px;
-	justify-content: center;
-	align-items: center;
-}
-
-.our-team-icon {
-	width: 40px;
-	height: 40px;
-	margin-top: 8px;
-
-}
-
-.our-team-icon:hover {
-	fill: #404BBF;
 }
 
 /* =============/ABAUT US=============== */
@@ -567,7 +550,11 @@ button {
 	fill: #f4f4fd;
 }
 
-.footer-list-icon-item-link:hover .footer-list-icon-item-link:focus {
+.footer-list-icon-item-link:hover {
+	background-color: #31d0aa;
+}
+
+.footer-list-icon-item-link:focus {
 	background-color: #31d0aa;
 }
 
