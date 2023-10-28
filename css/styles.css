@@ -188,7 +188,7 @@ button {
 	background-repeat: no-repeat;
 	background-size: cover;
 	padding: 188px 0;
-	max-width: 1440px;
+
 }
 
 .main-herro-box {
@@ -197,6 +197,7 @@ button {
 	align-items: center;
 	justify-content: center;
 	gap: 40px;
+	max-width: 1440px;
 }
 
 .main-herro-content {
